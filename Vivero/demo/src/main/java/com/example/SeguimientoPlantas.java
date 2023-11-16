@@ -72,6 +72,10 @@ import javax.swing.JOptionPane;
 
     @Override
     public String realizarCuidado() {
-        throw new UnsupportedOperationException("Unimplemented method 'realizarCuidado'");
+       /* Es una palabra clave en Java que se utiliza para lanzar una excepción. 
+       Indica que se está produciendo una situación excepcional en el código
+        */
+    throw new UnsupportedOperationException("Unimplemented method 'realizarCuidado'");
+    // Nota: es una excepción que indica que la operación no es compatible o no está soportada
     }
 }
