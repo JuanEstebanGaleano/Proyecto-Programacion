@@ -1,5 +1,7 @@
 package com.example;
+
 import java.util.Date;
+import javax.swing.JOptionPane;
 
 // Clase de clientes
 public class Clientes {
@@ -55,4 +57,11 @@ public class Clientes {
     public void setRecordatorios(String recordatorios) {
         Recordatorios = recordatorios;
     }
+
+    public void enviarMensaje(Empleado empleado, String mensaje) {
+        System.out.println("Enviando mensaje desde Cliente: " + mensaje);
+        JOptionPane.showMessageDialog(null, "Cliente " + nombre + ": " + mensaje);
+        empleado.recibirMensaje(this, mensaje);
+    }
+
 }
