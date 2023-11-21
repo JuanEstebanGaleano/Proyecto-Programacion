@@ -53,7 +53,7 @@ import javax.swing.JOptionPane;
                 herramientaUtilizada = "Abono";
                 break;
             case 2:
-                herramientaUtilizada = "Fechas de riego";
+                herramientaUtilizada = "Regar";
                 break;
             case 3:
                 herramientaUtilizada = "Trasplantes";
