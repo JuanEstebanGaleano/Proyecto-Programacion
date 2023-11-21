@@ -13,6 +13,7 @@ public class ProyectoVivero {
     Empleado empleado = new Empleado("");
     String mensajeCliente = JOptionPane.showInputDialog("Cliente " + cliente.getNombre() + ", ingrese su mensaje:");
     cliente.enviarMensaje(empleado, mensajeCliente);
+
     // Imprimir la informacion de las clases
     System.out.println("--------------------\n");
     Planta rosa = new Rosa("Rosa común", "Rosa sp.", "Arbusto", "Luz directa", "Riego regular");
@@ -68,7 +69,5 @@ public class ProyectoVivero {
     System.out.println("Planta Adquiririda: " + adquirirPlantasCliente1);
     System.out.println("Fecha de registro: " + sdf.format(fechaRegistroCliente1));
     System.out.println("--------------------\n");
-
-
   }
 }

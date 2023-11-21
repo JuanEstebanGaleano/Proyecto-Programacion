@@ -15,6 +15,7 @@ class BotanicoEspecializado extends Botanico {
     public void agregarCuidado(CuidadoPlanta cuidado) {
         cuidados.add(cuidado);
     }
+    // Método para obtener los cuidados de una planta
     @Override
     public void actualizarCuidado(CuidadoPlanta cuidado) {
         for (int i = 0; i < cuidados.size(); i++) {
@@ -24,7 +25,7 @@ class BotanicoEspecializado extends Botanico {
             }
         }
     }
-
+    
     @Override
     public void eliminarCuidado(CuidadoPlanta cuidado) {
         cuidados.remove(cuidado);

@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
     // Constructor de la clase
     public SeguimientoPlantas(String SeguimientoDelEstadoSalud, String SeguimientoDelCrecimiento, String Herramientas) {
-        super(Herramientas, Herramientas, Herramientas, Herramientas, Herramientas); // Call the constructor of the superclass
+        super(Herramientas, Herramientas, SeguimientoDelEstadoSalud, SeguimientoDelCrecimiento, Herramientas);
         this.SeguimientoDelEstadoSalud = SeguimientoDelEstadoSalud;
         this.SeguimientoDelCrecimiento = SeguimientoDelCrecimiento;
         this.Herramientas = Herramientas;
@@ -75,7 +75,7 @@ import javax.swing.JOptionPane;
        /* Es una palabra clave en Java que se utiliza para lanzar una excepción. 
        Indica que se está produciendo una situación excepcional en el código
         */
-    throw new UnsupportedOperationException("Unimplemented method 'realizarCuidado'");
+    throw new UnsupportedOperationException("Método 'realizarCuidado' no implementado");
     // Nota: es una excepción que indica que la operación no es compatible o no está soportada
     }
 }
