@@ -1,7 +1,6 @@
 package com.example;
 import java.util.Date;
 
-
 // Clase abstracta para representar plantas
 abstract class Planta {
     private String nombreComun;
@@ -19,7 +18,7 @@ abstract class Planta {
         this.cuidadosEspecificos = cuidadosEspecificos;
         this.fechaRiego = null;
     }
-
+        //Metodos y getter para la exposicion:
     public String getNombreComun() {
         return nombreComun;
     }
@@ -71,6 +70,7 @@ abstract class Planta {
                "Cuidados específicos: " + cuidadosEspecificos + "\n";
     }
 
+ 
 }
 
 

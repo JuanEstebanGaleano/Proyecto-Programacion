@@ -15,14 +15,14 @@ class BotanicoEspecializado extends Botanico {
     public void agregarCuidado(CuidadoPlanta cuidado) {
         cuidados.add(cuidado);
     }
-
     @Override
     public void actualizarCuidado(CuidadoPlanta cuidado) {
-        int index = cuidados.indexOf(cuidado);
-        if (index != -1) {
-            cuidados.remove(index);
-            cuidados.add(index, cuidado);
-        }    
+        for (int i = 0; i < cuidados.size(); i++) {
+            if (cuidados.get(i).equals(cuidado)) {
+                cuidados.set(i, cuidado);
+                return;
+            }
+        }
     }
 
     @Override

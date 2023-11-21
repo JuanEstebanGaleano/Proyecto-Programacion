@@ -16,7 +16,11 @@ abstract class Botanico {
         this.email = email;
         this.numeroCelular = numeroCelular;
     }
+     /*
+      *Implementamos  la interfaz para que hereda de una clase que contiene el método
+       abstracto para añadir cuidados especificos 
 
+     */
     public abstract void agregarCuidado(CuidadoPlanta cuidado);
 
     public abstract void actualizarCuidado(CuidadoPlanta cuidado);

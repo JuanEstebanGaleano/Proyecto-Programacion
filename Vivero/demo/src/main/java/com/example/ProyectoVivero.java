@@ -69,5 +69,6 @@ public class ProyectoVivero {
     System.out.println("Fecha de registro: " + sdf.format(fechaRegistroCliente1));
     System.out.println("--------------------\n");
 
+
   }
 }
