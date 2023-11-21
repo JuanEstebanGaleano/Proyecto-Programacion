@@ -72,10 +72,6 @@ import javax.swing.JOptionPane;
 
     @Override
     public String realizarCuidado() {
-       /* Es una palabra clave en Java que se utiliza para lanzar una excepción. 
-       Indica que se está produciendo una situación excepcional en el código
-        */
-    throw new UnsupportedOperationException("Método 'realizarCuidado' no implementado");
-    // Nota: es una excepción que indica que la operación no es compatible o no está soportada
+        return "Cuidado básico realizado";
     }
-}
+ }
