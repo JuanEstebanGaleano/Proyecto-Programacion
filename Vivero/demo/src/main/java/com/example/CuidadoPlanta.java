@@ -15,11 +15,12 @@ class CuidadoPlanta {
     public CuidadoPlanta(String areaCuidado, Date fechaHoraCuidado) {
         this.areaCuidado = areaCuidado;
         this.fechaHoraCuidado = fechaHoraCuidado;
+        //objeto donde se va a crear la nueva lista
         this.botanicos = new ArrayList<>();
         this.resultadoCuidado = "";
         this.estadoCuidado = "PENDIENTE";
     }
-
+//es agregar las herramientas, se puede cambiar por algun nombre
     public CuidadoPlanta(String string, String string2, String string3) {
     }
 
